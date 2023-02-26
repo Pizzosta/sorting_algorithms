@@ -56,4 +56,7 @@ void recursion(int *arr, int low, int high, int bool, size_t size);
 void sort_down(int *arr, int low, int high);
 void sort_up(int *arr, int low, int high);
 void print_bitonic(int *arr, int i, int limit);
+
+void quick_sort_hoare(int *array, size_t size);
+
 #endif /* _SORT_H_ */
